@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#inp{
+  width: 350px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  padding-left: 20px;
+}
+#inp2{
+  width: 373px;
+  height: 35px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  padding-left: 20px;
+}
+
+#dusers{
+  border: 1px solid rgb(173, 172, 172);
+  padding: 30px;
+  width: 250px;
+  height: 220px;
+  margin-top: 100px;
+ border-radius: 20px;
+
+}
+
+#ddd{
+
+  display:flex;
+  flex-direction: row;
+  position: relative;
+  gap: 30px;
+  width: 800px;
+  height: 300px;
+  justify-content: space-between;
+}
+
+.loading {
+  width: 80px;
+  height: 80px;
+  border: 3px solid blue;
+  border-top: 3px solid greenyellow;
+  margin: 0 auto;
+  border-radius: 50%;
+  animation: spinner 0.9s linear infinite;
+  margin-top: 140px;
+  margin-left: 180px;
+  position: absolute;
+}
+
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rightSide{
+  margin-left: 500px;
+  background-color: rgb(238, 236, 236);
+  width: 850px;
+  height: 642px;
+  margin-top: -136px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  position: absolute;
+  padding-top: 75px;
+}
+
+.report{
+  width: 200px;
+  height: 100px;
+  background-color: rgb(78, 78, 207);
+  border-radius: 15px;
+  margin: 30px;
+  padding-left: 20px;
+  margin-top: 12px;
+  padding-bottom: 20px;
+}
+
+.report h4{
+  font-weight: 400;
+  color: #e2e1e1;
+  font-size: 20px;
+  position: relative;
+}
+
+.leftSide{
+  width: 300px;
+  position: absolute;
+  margin-left: 90px;
+  margin-top: 40px;
+  height: 500px;
+  text-align: center;
+}
+.leftSide3{
+  width: 480px;
+  margin-top: 10px;
+}
+
+.leftSide h3{
+  margin-top: 20px;
+  font-size: 55px;
+  font-weight: 400;
+}
+.leftSide h4{
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: 400;
+}
+.leftSide h2{
+  margin-top: 20px;
+  font-size: 35px;
+  font-weight: 400;
+}
+.reportImage{
+  width: 100px;
+  height: 100px;
+}
+.deg{
+  margin-left: -13px;
+}
+.deg2{
+  margin-left: -15px;
+  font-weight: 300;
+}
+.deg4{
+  margin-left: -7px;
+}
+.deg3{
+  margin-left: -5px;
+  font-size: 25px;
+}
+
+.greeting{
+  margin-left: 190px;
+  font-size: 32px;
+  font-weight: 450;
+  margin-top: -1px;
+}
+.input{
+  width: 250px;
+  height: 31px;
+  border: 1px solid #d6d6d6;
+  margin-left: 70px;
+  padding-left: 10px;
+}
+.btn{
+  width: 100px;
+  height: 37px;
+  background-color: rgb(78, 78, 207);
+  color: #f1f1f1;
+  border: 1px solid #f1f0f0;
+  cursor: pointer;
+}
+.today{
+  position: absolute;
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 30px;
+  margin-top: -43px;
+  color: rgb(53, 53, 52);
+}
+/* .btn:hover{
+
+} */
